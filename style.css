@@ -8,6 +8,12 @@
     height: 100vh;
     background: linear-gradient(184deg,#8754ff,#8E2DE2);
   }
+
+  .heading{
+    display: block;
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
   .start-screen,
   .score-container {
     position: absolute;
@@ -31,8 +37,8 @@
     border-radius: 0.2em;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
   }
-  #restart {
-    margin-top: 0.9em;
+  #start-button :hover {
+    background-color: #689f38;
   }
   #display-container {
     background-color: #ffffff;
