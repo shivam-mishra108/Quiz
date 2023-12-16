@@ -84,6 +84,9 @@
     border: 1px solid #c0bfd2;
     border-radius: 0.3em;
   }
+  .option-div:hover{
+      box-shadow: 3px 2px 2px burlywood;
+  }
   .option-div:disabled {
     color: #000000;
     cursor: not-allowed;
@@ -104,14 +107,15 @@
   .incorrect {
     background-color: #ffdde0;
     color: #d32f2f;
-    border-color: #d32f2f;
+    border-color: #d22222;
   }
   .correct {
     background-color: #e7f6d5;
     color: #689f38;
-    border-color: #689f38;
+    border-color: #4b831b;
   }
   #user-score {
     font-size: 1.5em;
     color: #ffffff;
+    text-shadow: 2px 1px 2px blue;
   }

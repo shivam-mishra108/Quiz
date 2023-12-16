@@ -14,7 +14,6 @@ let scoreCount = 0;
 let count = 11;
 let countdown;
 
-
 //Questions and Options array puts here ...
 
 
@@ -46,7 +45,7 @@ nextBtn.addEventListener(
             //display quiz
             quizDisplay(questionCount);
             count = 11;
-            // clearInterval(countdown);
+            clearInterval(countdown);
             timerDisplay();
         }
     })
